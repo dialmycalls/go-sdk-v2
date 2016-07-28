@@ -33,7 +33,7 @@ type CreateTextParameters struct {
 	// (Required)  List of messages to send (up to 10).
 	Messages []string `json:"messages,omitempty"`
 
-	// When the broadcast should be sent.
+	// When the broadcast should be sent. (Ex: 2016-07-25T12:00:00+0000)
 	SendAt string `json:"send_at,omitempty"`
 
 	// Should the broadcast go out immediately?

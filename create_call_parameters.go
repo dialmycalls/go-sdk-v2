@@ -36,7 +36,7 @@ type CreateCallParameters struct {
 	// The recording id of the message that should be played on answering machines.  If not supplied the recording_id will be used.  use_amd must be true in order for this feature to work.
 	MachineRecordingId Uuid `json:"machine_recording_id,omitempty"`
 
-	// When the broadcast should be sent.
+	// When the broadcast should be sent. (Ex: 2016-07-25T12:00:00+0000)
 	SendAt string `json:"send_at,omitempty"`
 
 	// Should the broadcast go out immediately?

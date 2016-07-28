@@ -7,7 +7,7 @@ Name | Type | Description | Notes
 **CalleridId** | [**Uuid**](UUID.md) | (Required)  The caller id that the message should be sent from. | [optional] [default to null]
 **RecordingId** | [**Uuid**](UUID.md) | (Required)  The recording id of the message that should be played. | [optional] [default to null]
 **MachineRecordingId** | [**Uuid**](UUID.md) | The recording id of the message that should be played on answering machines.  If not supplied the recording_id will be used.  use_amd must be true in order for this feature to work. | [optional] [default to null]
-**SendAt** | **string** | When the broadcast should be sent. | [optional] [default to null]
+**SendAt** | **string** | When the broadcast should be sent. (Ex: 2016-07-25T12:00:00+0000) | [optional] [default to null]
 **SendImmediately** | **bool** | Should the broadcast go out immediately? | [optional] [default to null]
 **UseAmd** | **bool** | Using answering machine detection? | [optional] [default to null]
 **SendEmail** | **bool** | Also send an email to the contacts? | [optional] [default to null]
